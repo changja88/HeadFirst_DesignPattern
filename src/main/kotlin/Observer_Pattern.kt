@@ -110,9 +110,9 @@ class CurrentConditionsDisplay(val weatherData: Subject) : Observer, DisplayElem
     }
 }
 
-/*
-- 사용 예시
-val weatherData = WeatherData()
-val currentDisplay = CurrentConditionsDisplay(weatherData)
-weatherData.setMeasurements(80, 65, 30.4f);
- */
+fun usage_main() {
+    val weatherData = WeatherData()
+    val currentDisplay = CurrentConditionsDisplay(weatherData)
+    weatherData.setMeasurements(80f, 65f, 30.4f);
+}
+
