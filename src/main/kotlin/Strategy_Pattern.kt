@@ -110,14 +110,14 @@ class MallardDuck(
     }
 }
 
-/*
-  val mallard = MallardDuck()
+fun main() {
+    val mallard = MallardDuck()
     mallard.performQuack()
     mallard.performFly()
 
-    mallard.flyBehavior= FlayNoWay() -> 동적으로 변경도 가능하다
+    mallard.flyBehavior = FlayNoWay() //-> 동적으로 변경도 가능하다
     mallard.performFly()
- */
+}
 
 /*
 - A는 B이다 보다 A에는 B가 있다 가 더 좋을 수 있다
